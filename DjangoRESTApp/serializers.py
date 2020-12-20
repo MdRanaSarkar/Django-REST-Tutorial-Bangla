@@ -6,7 +6,7 @@ class ArticleSerializer(serializers.ModelSerializer):
     # Model serializer
     class Meta:
         model = Article
-        fields = ['title', 'authorname', 'email', 'date']
+        fields = ['id', 'title', 'authorname', 'email', 'date']
 
     """
     #Normal serializer
